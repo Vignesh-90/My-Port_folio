@@ -1,0 +1,96 @@
+export const data = {
+  name: 'Vigneshwaran M',
+  title: 'MERN Stack Developer',
+  taglines: [
+    'MERN Stack Developer',
+    'React.js Enthusiast',
+    'Next.js Enthusiast',
+    'Node.js Builder',
+    'UI/UX Thinker',
+    'Open Source Contributor',
+  ],
+  about:
+    "I'm a passionate MERN Stack Developer with 1+ year of experience building scalable web applications. I love turning complex problems into clean, elegant solutions. Currently based in Puducherry, always open to exciting opportunities.",
+  email: 'vigneshwarancse010@gmail.com',
+  phone: '+91 93603 85014',
+  location: 'Villupuram, Tamil Nadu',
+  github: 'https://github.com/Vignesh-90',
+  linkedin: 'https://www.linkedin.com/in/vigneshwaran-m-3468502b5',
+
+  skills: [
+    { name: 'React.js', level: 90, color: '#61DAFB' },
+    { name: 'Next.js', level: 80, color: '#FFFFFF' },
+    { name: 'Node.js', level: 85, color: '#84CC16' },
+    { name: 'MongoDB', level: 80, color: '#10B981' },
+    { name: 'Express.js', level: 85, color: '#A855F7' },
+    { name: 'Redux Toolkit', level: 75, color: '#764ABC' },
+    { name: 'TypeScript', level: 75, color: '#3B82F6' },
+    { name: 'JavaScript', level: 75, color: '#3B82F6' },
+    { name: 'Tailwind CSS', level: 90, color: '#06B6D4' },
+    { name: 'REST APIs', level: 90, color: '#F59E0B' },
+    { name: 'Git & GitHub', level: 85, color: '#F97316' },
+    { name: 'JWT Auth', level: 80, color: '#EC4899' },
+    { name: 'Docker', level: 55, color: '#2563EB' },
+  ],
+
+  projects: [
+    {
+      title: 'ShopFlow — E-Commerce Platform',
+      desc: 'Full-stack e-commerce app with product management, cart, Razorpay payments, and admin dashboard. Built with MERN stack + Redux Toolkit.',
+      tech: ['React', 'Node.js', 'MongoDB', 'Redux', 'Razorpay'],
+      github: 'https://github.com/arjunselvam/shopflow',
+      live: 'https://shopflow.vercel.app',
+      featured: true,
+      color: '#7C3AED',
+    },
+    {
+      title: 'TaskBoard — Project Manager',
+      desc: 'Kanban-style project management tool with real-time drag-and-drop, team collaboration, and deadline tracking.',
+      tech: ['React', 'Express', 'MongoDB', 'Socket.io'],
+      github: 'https://github.com/arjunselvam/taskboard',
+      live: 'https://taskboard-app.vercel.app',
+      featured: true,
+      color: '#06B6D4',
+    },
+    {
+      title: 'ChatApp — Real-time Messaging',
+      desc: 'WhatsApp-inspired real-time chat application with rooms, online status, emoji support, and media sharing.',
+      tech: ['React', 'Node.js', 'Socket.io', 'MongoDB'],
+      github: 'https://github.com/arjunselvam/chatapp',
+      live: 'https://chatapp-live.vercel.app',
+      featured: false,
+      color: '#10B981',
+    },
+    {
+      title: 'DevBlog — CMS Platform',
+      desc: 'Developer blog platform with markdown editor, syntax highlighting, tags, and SEO optimization built with Next.js.',
+      tech: ['Next.js', 'MongoDB', 'Tailwind', 'MDX'],
+      github: 'https://github.com/Vignesh-90/Vignesh-Portfolio',
+      live: 'https://devblog-cms.vercel.app',
+      featured: false,
+      color: '#F59E0B',
+    },
+  ],
+
+  experience: [
+    {
+      role: 'MERN Stack Developer',
+      company: 'ABI Tech Solutions Pvt Ltd',
+      duration: 'May 2025 – Present',
+      location: 'Puducherry, India',
+      points: [
+        'Built 3 client-facing web apps using React.js and Node.js, reducing load time by 40%',
+        'Designed and implemented 15+ RESTful APIs with JWT authentication and role-based access',
+        'Integrated Razorpay payment gateway, processing 500+ transactions monthly',
+        'Collaborated with UI/UX team to deliver pixel-perfect, responsive interfaces',
+      ],
+    },
+  ],
+
+  education: {
+    degree: 'B.E. Computer Science & Engineering',
+    college: 'Surya Group Of Institution — Vikiravandi',
+    year: '2020 – 2024',
+    cgpa: '7.8 CGPA',
+  },
+}
